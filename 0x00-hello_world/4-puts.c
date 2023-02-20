@@ -1,11 +1,15 @@
 #include <stdio.h>
 /**
- *main - main entry point
- *return : always 0 (succes)
+ *main - Entry point
+ *
+ *Description: 'the program's description'
+ *
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
+	/* main function implementation goes here*/
 	puts("\"Programming is like building a multilingual puzzle");
-	/*the main will return the value 0*/
+	/*This program returns 0 if it completes successfully*/
 	return (0);
 }
