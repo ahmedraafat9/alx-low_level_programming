@@ -32,9 +32,13 @@ int largest_number(int a, int b, int c)
 	{
 		largest = c;
 	}
+	else if (a == b && b == c)
+	{
+		printf("the three numbers are equal");
+	}
 	else
 	{
 		largest = c;
 	}
 	return (largest);
-}
+
